@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.menu ul {
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 10px 1px 10px 108px;
+}
