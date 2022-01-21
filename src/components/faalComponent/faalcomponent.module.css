@@ -1,0 +1,68 @@
+.main {
+    background: rgba(236, 210, 118, 0.8);
+    border-radius: 15px;
+    width: 467px;
+    margin: 13px 93px 10px 12px;
+    padding: 63px;
+}
+.poem {
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.poemContainer {
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.sher , .poemContainer>div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.couplet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6px 0;
+}
+.verse {
+    width: 50%;
+    font-size: 15px;
+}
+.bottom {
+    margin-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;
+    padding-right: 7%;
+    box-sizing: border-box;
+}
+
+.InterpretationMain {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 36px;
+    margin-top: 13px;
+}

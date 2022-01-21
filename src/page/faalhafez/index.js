@@ -1,11 +1,15 @@
 import Faalcomponent from "../../components/faalComponent";
-import style from "./faalhafez.module.css";
-import faal from "../../hook/faal";
+import styles from "./faalhafez.module.css";
+import Usefaal from "../../hook/faal";
+
 function Faalhafez(){
-    const {title , poem , Interpretation , voice } = faal();
+    const {title , poems , Interpretation , voice } = Usefaal();
 return(
-    <div className={style.backgroundfaal}>
-        <Faalcomponent faaltitle={title} faalpoem={poem} faalInterpretation={Interpretation}  faalvoice={voice}/>
+    <div className={styles.backgroundfaal}>
+    <div>
+    <Faalcomponent title={title} poems={poems} Interpretation={Interpretation}  voice={voice}/>
+      
+    </div>
     </div>
 )
 }

@@ -1,4 +1,5 @@
 .backgroundfaal {
     background: url("../../image//backFal.png") no-repeat;
-    background-size: cover;;
+    background-size: cover;
+    display: flex;
 }

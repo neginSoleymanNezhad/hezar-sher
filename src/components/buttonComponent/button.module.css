@@ -9,3 +9,15 @@
     cursor: pointer;
 
 }
+.backgray {
+    text-align: center;
+    font-size: 16px;
+    background-color: #dfe9f3;
+    border-radius: 10px 0px;
+    border: none;
+    padding: 10px;
+    min-width: 160px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
