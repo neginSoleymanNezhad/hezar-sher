@@ -26,8 +26,8 @@ return(
                             بزرگش تسکین داده اند.
                         </span>        
 <div>
- <ButtonComponent text="فال حافظ" style="backOrange" onClick={()=>window.open(firstPage , '_blank')}/>
- <ButtonComponent text="گنجینه اشعار" style="backOrange" onClick={()=>window.open(firstPage , '_blank')}/>
+ <ButtonComponent text="فال حافظ" style="backOrange" onClick={()=>window.open(firstPage , '_self')}/>
+ <ButtonComponent text="گنجینه اشعار" style="backOrange" onClick={()=> window.open(firstPage, "_self")}/>
 
 </div>
     </div>
