@@ -1,8 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
-import ShaerBox from "../shaerBox"
+import ShaerBox from "../shaerBox";
+import {routelink} from "../../routlink/routelink";
+
 function SliderComponent(props) {
     const {shoara} = props;
+    const {shaer} = routelink;
     var settings = {
         arrows: true,
         slidesToShow: 5,
@@ -26,7 +29,7 @@ function SliderComponent(props) {
                                     key={`poet-${name}`}
                                     title={name}
                                     imageURL={image}
-                                    link={`${shoara}/${id}`}
+                                    link={`${shaer}/${id}`}
                                 />
                             );
                         })}
