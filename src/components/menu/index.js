@@ -6,7 +6,7 @@ return (
     <div><img src={logo}/></div>
     <div className={style.menu}>
         <ul>
-            <li><a href="/">فال حافظ</a></li>
+            <li><a href="/faalhafez">فال حافظ</a></li>
             <li><a href="/">گنجینه</a></li>
             <li><a href="/">درباره ما</a></li>
         </ul>

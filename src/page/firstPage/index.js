@@ -4,7 +4,7 @@ import image12 from "../../image/image12.png"
 import {routelink} from "../../routlink/routelink";
 import ButtonComponent from "../../components/buttonComponent";
 function FirstPage(){
-    const { firstPage } = routelink;
+    const { firstPage , faalhafez } = routelink;
 return(
     <div>
         <Menu />
@@ -26,7 +26,7 @@ return(
                             بزرگش تسکین داده اند.
                         </span>        
 <div>
- <ButtonComponent text="فال حافظ" style="backOrange" onClick={()=>window.open(firstPage , '_self')}/>
+ <ButtonComponent text="فال حافظ" style="backOrange" onClick={()=>window.open(faalhafez , '_self')}/>
  <ButtonComponent text="گنجینه اشعار" style="backOrange" onClick={()=> window.open(firstPage, "_self")}/>
 
 </div>
