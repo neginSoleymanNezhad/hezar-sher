@@ -1,0 +1,37 @@
+.main {
+    background:url("../../image/tarh1\ \(1\).png") no-repeat
+}
+.orangediv {
+    position: absolute;
+    width: 892px;
+    height: 421px;
+    left: 0;
+    top: 154px;
+    background: #F5D36F;
+    border: 1px solid #F4BB13;
+    box-sizing: border-box;
+}
+.bluediv {
+    position: absolute;
+    width: 875px;
+    height: 292px;
+    right: 0;
+    z-index: -1;
+    top: 267px;
+    background: rgba(208, 227, 245, 0.5);
+    border: 1px solid #99C4EF;
+    box-sizing: border-box;
+}
+.image12 {
+    position: absolute;
+    left: 0;
+    top: 38px;
+}
+.sliderdiv {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    bottom: 0;    z-index: 3;
+}

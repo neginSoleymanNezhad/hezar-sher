@@ -7,7 +7,7 @@ return (
     <div className={style.menu}>
         <ul>
             <li><a href="/faalhafez">فال حافظ</a></li>
-            <li><a href="/">گنجینه</a></li>
+            <li><a href="/ganjine">گنجینه</a></li>
             <li><a href="/">درباره ما</a></li>
         </ul>
     </div>
