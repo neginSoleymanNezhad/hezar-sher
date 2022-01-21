@@ -1,7 +1,10 @@
 import Menu from "../../components/menu";
 import style from "./firstPage.module.css";
 import image12 from "../../image/image12.png"
+import {routelink} from "../../routlink/routelink";
+import ButtonComponent from "../../components/buttonComponent";
 function FirstPage(){
+    const { firstPage } = routelink;
 return(
     <div>
         <Menu />
@@ -22,6 +25,11 @@ return(
                             نیشابوری همه و همه همچون مرهمی بر زخم های کوچک و
                             بزرگش تسکین داده اند.
                         </span>        
+<div>
+ <ButtonComponent text="فال حافظ" style="backOrange" onClick={()=>window.open(firstPage , '_blank')}/>
+ <ButtonComponent text="گنجینه اشعار" style="backOrange" onClick={()=>window.open(firstPage , '_blank')}/>
+
+</div>
     </div>
 </div>
 </div>
